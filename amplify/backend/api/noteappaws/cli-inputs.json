@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "noteappaws",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Workspace\\Aws-amplify-demo\\noteapp-aws\\amplify\\backend\\api\\noteappaws\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authnoteappawse46323e2"
+      }
+    ]
+  }
+}
